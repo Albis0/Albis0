@@ -1,6 +1,6 @@
 # Hey, I'm Abdurrahman 👋
 
-17 y/o developer from Turkey. I build full-stack web apps and enjoy turning ideas into working products.
+17 y/o developer from Türkiye . I build full-stack web apps and enjoy turning ideas into working products.
 
 ## 🔧 Technologies
 
@@ -22,10 +22,11 @@
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 
 **Currently Learning:**
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
 
-## 🚀 Projects
+## Projects
 
 ### [Glimpse](https://github.com/Albis0/Glimpse) — Multi-API Image Search App
 Search photos across Unsplash, Pexels, and Pixabay from a single interface. Features user authentication, favorites system, image quality selection, and masonry grid layout.
@@ -39,17 +40,11 @@ Search photos across Unsplash, Pexels, and Pixabay from a single interface. Feat
 ### [Sofra](https://github.com/Albis0/Sofra) — Recipe Suggestion App
 Enter the ingredients you have in your fridge, get recipe suggestions for what you can cook.
 
-**Stack:** ASP.NET MVC
+**Stack:** ASP.NET • MVC MongoDB
 
 **Live:** [sofra-production-8689.up.railway.app](https://sofra-production-8689.up.railway.app)
 
 ---
-
-## 📊 GitHub Stats
-
-![Albis0's GitHub stats](https://github-readme-stats.vercel.app/api?username=Albis0&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Albis0&layout=compact&theme=tokyonight&hide_border=true)
 
 ## 📫 Get In Touch
 
