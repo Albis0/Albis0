@@ -1,4 +1,4 @@
-# Hey, I'm Abdurrahman 👋
+# Hi, I'm Abdurrahman 👋
 
 17 y/o developer from Türkiye . I build full-stack web apps and enjoy turning ideas into working products.
 
