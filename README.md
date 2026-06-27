@@ -1,6 +1,6 @@
 # Hi, I'm Abdurrahman 👋
 
-17 y/o developer from Türkiye . I build full-stack web apps and enjoy turning ideas into working products.
+17 y/o developer from Türkiye. I build full-stack web apps and enjoy turning ideas into working products.
 
 ## 🔧 Technologies
 
@@ -8,6 +8,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -24,7 +25,6 @@
 **Currently Learning:**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
 
 ## Projects
 
@@ -37,12 +37,12 @@ Search photos across Unsplash, Pexels, and Pixabay from a single interface. Feat
 
 ---
 
-### [Sofra](https://github.com/Albis0/Sofra) — Recipe Suggestion App
-Enter the ingredients you have in your fridge, get recipe suggestions for what you can cook.
+### [yt2mp](https://github.com/Albis0/yt2mp) — Ad-Free YouTube → MP3/MP4 Downloader
+A clean, ad-free downloader where the actual work runs as a Windows desktop app on your own machine — no shared server, no upload limits, no ads. Paste a link (video or playlist) or use **AI search** to describe what you want instead of finding one. Pause, resume, or stop downloads mid-transfer.
 
-**Stack:** ASP.NET • MVC MongoDB
+**Stack:** Next.js • React • TypeScript • Electron • yt-dlp • ffmpeg
 
-**Live:** [sofra-production-8689.up.railway.app](https://sofra-production-8689.up.railway.app)
+**Download:** [Latest release](https://github.com/Albis0/yt2mp/releases/latest)
 
 ---
 
