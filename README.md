@@ -33,7 +33,7 @@
 
 ## Projects
 
-### [AEGIS](https://github.com/Albis0/AEGIS) — Windows-Native AI Assistant
+### [Vavis](https://github.com/Albis0/Vavis) — Windows-Native AI Assistant
 A desktop AI assistant that listens, thinks, and acts. Voice control (Whisper STT + streaming TTS), 332 tools wired to the actual machine — system control, Spotify, Steam, smart home, files, screen vision, mouse/keyboard — and 8 LLM providers (or a no-key trial mode). 16 skins, 5 languages.
 
 **Stack:** Electron • React • TypeScript • Vite • Supabase • Groq
