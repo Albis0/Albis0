@@ -5,6 +5,7 @@
 ## 🔧 Technologies
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -16,6 +17,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 **Libraries & Tools:**
 
@@ -26,10 +28,11 @@
 ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-
-**Currently Learning:**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square&logo=react&logoColor=white)
+![React Flow](https://img.shields.io/badge/React_Flow-FF0072?style=flat-square&logo=reactflow&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
+![Biome](https://img.shields.io/badge/Biome-60A5FA?style=flat-square&logo=biome&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ## Projects
 
@@ -38,7 +41,16 @@ A desktop AI assistant that listens, thinks, and acts. Voice control (Whisper ST
 
 **Stack:** Electron • React • TypeScript • Vite • Supabase • Groq
 
-**Download:** [Latest release](https://github.com/Albis0/AEGIS/releases/latest)
+**Download:** [Latest release](https://github.com/Albis0/Vavis/releases/latest)
+
+---
+
+### [FICSIT Planner](https://github.com/Albis0/ficsit_planner) — Satisfactory Factory & Power Planner
+Pick what you want to make and it plans the whole factory: an LP solver (HiGHS, in a Web Worker) picks the recipes, and the result is drawn as a game-style factory floor with belts, machines, clocks, power shards and somersloops. A second mode plans the power grid — generators, fuel chains, augmenters and backup storage — sized to the factories it feeds. Settings for layout, card and text size and colours, and a built-in bug/idea report box. Game data is extracted straight from the game files. Installs as an app and works offline, on desktop and phone.
+
+**Stack:** React • TypeScript • Vite • HiGHS • React Flow • Zustand • PWA • Cloudflare Pages + D1
+
+**Live:** [ficsit-planner.pages.dev](https://ficsit-planner.pages.dev)
 
 ---
 
