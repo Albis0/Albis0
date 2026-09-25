@@ -10,7 +10,10 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)
 ![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -37,9 +40,9 @@
 ## Projects
 
 ### [Vavis](https://github.com/Albis0/Vavis) — Windows-Native AI Assistant
-A desktop AI assistant that listens, thinks, and acts. Voice control (Whisper STT + streaming TTS), 332 tools wired to the actual machine — system control, Spotify, Steam, smart home, files, screen vision, mouse/keyboard — and 8 LLM providers (or a no-key trial mode). 16 skins, 5 languages.
+A personal AI assistant for Windows in a single `.exe`, no install — rewritten from scratch (formerly AEGIS) with a Rust backend and a Tauri window. Works with Claude Code, Gemini, Groq, Cerebras, OpenRouter, Mistral, NVIDIA, GitHub Models or local models (Ollama / LM Studio), with fallback providers when a quota runs out. On-device wake word, live voice conversation (Gemini Live), and a local semantic memory that learns about you. Reaches buttons and fields in any window by name (UI Automation) and controls files, apps, media, Spotify, Steam, Obsidian and MCP servers; automations can fire on time, battery, CPU or events like a new download.
 
-**Stack:** Electron • React • TypeScript • Vite • Supabase • Groq
+**Stack:** Rust • Tauri • React • TypeScript • Vite
 
 **Download:** [Latest release](https://github.com/Albis0/Vavis/releases/latest)
 
@@ -55,7 +58,7 @@ Pick what you want to make and it plans the whole factory: an LP solver (HiGHS, 
 ---
 
 ### [Glimpse](https://github.com/Albis0/Glimpse) — Multi-API Image Search App
-Search photos across Unsplash, Pexels, and Pixabay from a single interface. Features user authentication, favorites system, image quality selection, and masonry grid layout.
+Search photos across Unsplash, Pexels, and Pixabay from a single interface. Accounts with password reset by email, favorites, image quality selection (thumbnail to 4K), infinite scroll and a masonry grid.
 
 **Stack:** React • Node.js • Express • MongoDB • JWT • Axios
 
@@ -64,9 +67,9 @@ Search photos across Unsplash, Pexels, and Pixabay from a single interface. Feat
 ---
 
 ### [yt2mp](https://github.com/Albis0/yt2mp) — Ad-Free YouTube → MP3/MP4 Downloader
-A clean, ad-free downloader where the actual work runs as a Windows desktop app on your own machine — no shared server, no upload limits, no ads. Paste a link (video or playlist) or use **AI search** to describe what you want instead of finding one. Pause, resume, or stop downloads mid-transfer.
+A clean, ad-free downloader where the actual work runs as a desktop app on your own machine — no shared server, no upload limits, no ads. Paste a link (video or playlist) or use **AI search** to describe what you want instead of finding one. Pause, resume, or stop downloads mid-transfer. Updates itself; Windows installer and Linux AppImage.
 
-**Stack:** Next.js • React • TypeScript • Electron • yt-dlp • ffmpeg
+**Stack:** Tauri • React • TypeScript • Next.js (landing page) • yt-dlp • ffmpeg
 
 **Download:** [Latest release](https://github.com/Albis0/yt2mp/releases/latest)
 
