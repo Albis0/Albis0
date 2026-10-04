@@ -39,21 +39,20 @@
 
 ## Projects
 
-### [Vavis](https://github.com/Albis0/Vavis) — Windows-Native AI Assistant
-A personal AI assistant for Windows in a single `.exe`, no install — rewritten from scratch (formerly AEGIS) with a Rust backend and a Tauri window. Works with Claude Code, Gemini, Groq, Cerebras, OpenRouter, Mistral, NVIDIA, GitHub Models or local models (Ollama / LM Studio), with fallback providers when a quota runs out. On-device wake word, live voice conversation (Gemini Live), and a local semantic memory that learns about you. Reaches buttons and fields in any window by name (UI Automation) and controls files, apps, media, Spotify, Steam, Obsidian and MCP servers; automations can fire on time, battery, CPU or events like a new download.
-
-**Stack:** Rust • Tauri • React • TypeScript • Vite
-
-**Download:** [Latest release](https://github.com/Albis0/Vavis/releases/latest)
-
----
-
 ### [FICSIT Planner](https://github.com/Albis0/ficsit_planner) — Satisfactory Factory & Power Planner
 Pick what you want to make and it plans the whole factory: an LP solver (HiGHS, in a Web Worker) picks the recipes, and the result is drawn as a game-style factory floor with belts, machines, clocks, power shards and somersloops. A second mode plans the power grid — generators, fuel chains, augmenters and backup storage — sized to the factories it feeds. Settings for layout, card and text size and colours, and a built-in bug/idea report box. Game data is extracted straight from the game files. Installs as an app and works offline, on desktop and phone.
 
 **Stack:** React • TypeScript • Vite • HiGHS • React Flow • Zustand • PWA • Cloudflare Pages + D1
 
 **Live:** [ficsit-planner.pages.dev](https://ficsit-planner.pages.dev)
+
+---
+### [yt2mp](https://github.com/Albis0/yt2mp) — Ad-Free YouTube → MP3/MP4 Downloader
+A clean, ad-free downloader where the actual work runs as a desktop app on your own machine — no shared server, no upload limits, no ads. Paste a link (video or playlist) or use **AI search** to describe what you want instead of finding one. Pause, resume, or stop downloads mid-transfer. Updates itself; Windows installer and Linux AppImage.
+
+**Stack:** Tauri • React • TypeScript • yt-dlp • ffmpeg
+
+**Download:** [Latest release](https://github.com/Albis0/yt2mp/releases/latest)
 
 ---
 
@@ -66,12 +65,14 @@ Search photos across Unsplash, Pexels, and Pixabay from a single interface. Acco
 
 ---
 
-### [yt2mp](https://github.com/Albis0/yt2mp) — Ad-Free YouTube → MP3/MP4 Downloader
-A clean, ad-free downloader where the actual work runs as a desktop app on your own machine — no shared server, no upload limits, no ads. Paste a link (video or playlist) or use **AI search** to describe what you want instead of finding one. Pause, resume, or stop downloads mid-transfer. Updates itself; Windows installer and Linux AppImage.
 
-**Stack:** Tauri • React • TypeScript • Next.js (landing page) • yt-dlp • ffmpeg
+### [Vavis](https://github.com/Albis0/Vavis) — Windows-Native AI Assistant
+A personal AI assistant for Windows in a single `.exe`, no install — rewritten from scratch (formerly AEGIS) with a Rust backend and a Tauri window. Works with Claude Code, Gemini, Groq, Cerebras, OpenRouter, Mistral, NVIDIA, GitHub Models or local models (Ollama / LM Studio), with fallback providers when a quota runs out. On-device wake word, live voice conversation (Gemini Live), and a local semantic memory that learns about you. Reaches buttons and fields in any window by name (UI Automation) and controls files, apps, media, Spotify, Steam, Obsidian and MCP servers; automations can fire on time, battery, CPU or events like a new download.
 
-**Download:** [Latest release](https://github.com/Albis0/yt2mp/releases/latest)
+**Stack:** Rust • Tauri • React • TypeScript • Vite
+
+**Download:** [Latest release](https://github.com/Albis0/Vavis/releases/latest)
+
 
 ---
 
