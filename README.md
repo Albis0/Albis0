@@ -12,7 +12,10 @@
 
 <div align="center">
 
-<img src="assets/stack.svg" alt="Tech stack: JavaScript, TypeScript, Rust, React, Next.js, Tailwind CSS, Node.js, Express, MongoDB, Supabase, Tauri, Electron, Vite, Bun, Vitest, Biome, Git, GitHub Actions, Vercel, Render, Cloudflare" width="830">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img src="assets/stack-light.svg" alt="Tech stack: JavaScript, TypeScript, Rust, React, Next.js, Tailwind CSS, Node.js, Express, MongoDB, Supabase, Tauri, Electron, Git, Vite, Bun, Vitest, Biome, GitHub Actions, Vercel, Render, Cloudflare" width="830">
+</picture>
 
 </div>
 
