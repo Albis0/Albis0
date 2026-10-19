@@ -12,7 +12,7 @@
 
 <div align="center">
 
-![Tech stack](https://skillicons.dev/icons?i=js,ts,rust,react,nextjs,tailwind,nodejs,express,mongodb,supabase,tauri,electron,git,vite,bun,vitest,eslint,prettier,githubactions,vercel,cloudflare&perline=7)
+<img src="assets/stack.svg" alt="Tech stack: JavaScript, TypeScript, Rust, React, Next.js, Tailwind CSS, Node.js, Express, MongoDB, Supabase, Tauri, Electron, Vite, Bun, Vitest, Biome, Git, GitHub Actions, Vercel, Render, Cloudflare" width="830">
 
 </div>
 
