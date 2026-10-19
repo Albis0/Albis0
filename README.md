@@ -2,7 +2,7 @@
 
 ![Albis](https://capsule-render.vercel.app/api?type=waving&color=0:3178C6,100:20232A&height=170&section=header&text=Albis&fontSize=90&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Full-stack%20developer&descSize=22&descAlignY=68)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=3178C6&center=true&vCenter=true&width=600&height=40&lines=React%2C+TypeScript+and+Rust;Web+apps+and+desktop+tools;Turning+ideas+into+working+products)](https://github.com/Albis0)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=3178C6&center=true&vCenter=true&width=600&height=40&lines=React%2C+TypeScript+and+Node.js;Web+apps+and+desktop+tools;Turning+ideas+into+working+products)](https://github.com/Albis0)
 
 </div>
 
@@ -14,7 +14,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Tech stack: JavaScript, TypeScript, Rust, React, Next.js, Tailwind CSS, Node.js, Express, MongoDB, Supabase, Tauri, Electron, Git, Vite, Bun, Vitest, Biome, GitHub Actions, Vercel, Render, Cloudflare" width="830">
+  <img src="assets/stack-light.svg" alt="Tech stack: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, Express, Socket.IO, discord.js, MongoDB, PostgreSQL, Prisma, Supabase, SQLite, Tauri, Electron, Git, Vite, Bun, Docker, Biome, Vitest, Vercel, Render, Cloudflare, Railway, Google Cloud, Ubuntu" width="830">
 </picture>
 
 </div>
