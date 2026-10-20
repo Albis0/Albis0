@@ -8,6 +8,12 @@
 
 17 y/o developer from Türkiye. I build full-stack web apps and desktop tools, and I like shipping things people can actually install and use.
 
+<div align="center">
+
+<img src="assets/terminal.svg" alt="Terminal: whoami, git stats, ls projects, cat stack.txt" width="830">
+
+</div>
+
 ## Tech Stack
 
 <div align="center">
@@ -80,6 +86,17 @@ A personal AI assistant for Windows in a single `.exe`, no install. Rewritten fr
 
 **Stack:** Rust • Tauri • React • TypeScript • Vite
 **Download:** [Latest release](https://github.com/Albis0/Vavis/releases/latest)
+
+## Activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+  <img src="assets/activity-light.svg" alt="Commit activity over the last 12 months as a 3D skyline: 1,200 commits on 163 days" width="830">
+</picture>
+
+</div>
 
 ## Get In Touch
 
