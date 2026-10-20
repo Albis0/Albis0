@@ -14,7 +14,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Tech stack: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, Express, Socket.IO, discord.js, MongoDB, PostgreSQL, Prisma, Supabase, SQLite, Tauri, Electron, Git, Vite, Bun, Docker, Biome, Vitest, Vercel, Render, Cloudflare, Railway, Google Cloud, Ubuntu" width="830">
+  <img src="assets/stack-light.svg" alt="Tech stack: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, Express, Socket.IO, discord.js, MongoDB, PostgreSQL, Prisma, SQLite, Git, Vite, Bun, Docker, Vitest, Vercel, Render, Cloudflare, Railway, Google Cloud, Ubuntu" width="830">
 </picture>
 
 </div>
