@@ -19,8 +19,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Tech stack: JavaScript, TypeScript, React, Node.js, Express, Socket.IO, discord.js, MongoDB, Git, Vite, Bun, Vercel, Render, Cloudflare, Railway, Google Cloud, Ubuntu" width="830">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-v2-dark.svg">
+  <img src="assets/stack-v2-light.svg" alt="Tech stack: JavaScript, TypeScript, React, Node.js, Express, Socket.IO, discord.js, MongoDB, Git, Vite, Bun, Vercel, Render, Cloudflare, Railway, Google Cloud, Ubuntu" width="830">
 </picture>
 
 </div>
