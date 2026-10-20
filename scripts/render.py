@@ -118,7 +118,7 @@ def terminal():
     lines = [("whoami", "17 y/o developer, Türkiye"),
              ("git stats", f'{S["total"]:,} commits in {S["repos"]} repos, since {S["first"]}'),
              ("ls projects/", "ficsit-planner   yt2mp   glimpse   vavis"),
-             ("cat stack.txt", "html  css  javascript  typescript  react  node")]
+             ("cat stack.txt", "javascript  typescript  react  node  express  mongodb")]
     pct = lambda t: f"{t / T * 100:.3f}%"
     css = [f".t{{font:{FS}px {MONO}}}.ti{{font:500 12px {SANS}}}",
            "@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}.cur{animation:blink 1.05s steps(1) infinite}",
@@ -274,4 +274,4 @@ def snake():
 
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
-    activity3d(); terminal(); stats_card(); trophies(); snake()
+    activity3d(); terminal()

@@ -20,7 +20,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Tech stack: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, Express, Socket.IO, discord.js, MongoDB, PostgreSQL, Prisma, SQLite, Git, Vite, Bun, Docker, Vitest, Vercel, Render, Cloudflare, Railway, Google Cloud, Ubuntu" width="830">
+  <img src="assets/stack-light.svg" alt="Tech stack: JavaScript, TypeScript, React, Node.js, Express, Socket.IO, discord.js, MongoDB, Git, Vite, Bun, Vercel, Render, Cloudflare, Railway, Google Cloud, Ubuntu" width="830">
 </picture>
 
 </div>
@@ -95,10 +95,6 @@ A personal AI assistant for Windows in a single `.exe`, no install. Rewritten fr
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
   <img src="assets/activity-light.svg" alt="Commit activity over the last 12 months as a 3D skyline: 1,200 commits on 163 days" width="830">
 </picture>
-
-<img src="assets/stats.svg" alt="Commit stats: total, per month, most active projects" width="830">
-
-<img src="assets/trophies.svg" alt="Trophies: commits, active days, streak, busiest day, projects, experience" width="830">
 
 </div>
 
