@@ -29,60 +29,49 @@
 
 ### [FICSIT Planner](https://github.com/Albis0/ficsit_planner) — Satisfactory factory & power planner
 
-Enter what you want per minute and it plans the whole factory: picks the recipes, counts the machines, sets their clock speeds and draws it all with belts and pipes.
+Tell it what you want per minute and it plans the whole factory: recipes, machine counts, clock speeds, belts and pipes.
 
-- An LP solver (HiGHS compiled to WebAssembly, in a Web Worker) does the maths, so the page never freezes
-- Power planner for generators, fuel chains, augmenters and backup storage, sized to the factories it feeds
-- Codex of parts, buildings, milestones, research and alternate recipes, plus a world map with every resource node
-- Transport calculator for belts, trains, trucks and drones; share links; settings for layout, colours and game multipliers
-- Game data extracted straight from the game files
-- Installs as an app and works offline, on desktop and phone
+- LP solver (HiGHS in WebAssembly, in a Web Worker) so the page never freezes
+- Power planner, codex, resource map and transport calculator
+- Installable PWA, works offline
 
-**Stack:** React • TypeScript • Vite • HiGHS • React Flow • Zustand • Leaflet • PWA • Bun • Cloudflare Pages + D1
+**Stack:** React • TypeScript • Vite • HiGHS • Zustand • Cloudflare Pages + D1
 **Live:** [ficsitplanner.app](https://ficsitplanner.app)
 
 ---
 
-### [yt2mp](https://github.com/Albis0/yt2mp) — Ad-free YouTube → MP3/MP4 downloader and converter
+### [yt2mp](https://github.com/Albis0/yt2mp) — Ad-free YouTube → MP3/MP4 downloader
 
-The actual work runs as a desktop app on your own machine: no shared server, no upload limits, no ads.
+A desktop app that runs on your own machine: no shared server, no upload limits, no ads.
 
-- Paste a link (video or playlist) or use **AI search** to describe what you want
-- Pause, resume or stop downloads mid-transfer
-- Built-in converter: turns videos, songs and pictures into 34 formats, with a queue and graphics-card encoding when available
-- Built-in browser with a Download button
-- Updates itself; Windows installer and Linux AppImage
+- Videos, playlists or AI search, with pause and resume
+- Built-in converter for 34 formats
+- Windows installer and Linux AppImage
 
-**Stack:** Tauri • React • TypeScript • yt-dlp • ffmpeg • Next.js (landing page)
+**Stack:** Tauri • React • TypeScript • yt-dlp • ffmpeg
 **Download:** [Latest release](https://github.com/Albis0/yt2mp/releases/latest)
 
 ---
 
 ### [Glimpse](https://github.com/Albis0/Glimpse) — Multi-API image search
 
-Search photos across Unsplash, Pexels and Pixabay from a single interface.
+Search Unsplash, Pexels and Pixabay from one place.
 
-- Accounts with profile pictures and password reset by email
-- Favorites
-- Image preview with download, and quality selection from thumbnail to 4K
-- Infinite scroll, masonry grid and a responsive mobile layout
+- Accounts, favorites and quality selection up to 4K
+- Infinite scroll with a masonry grid
 
-**Stack:** React • Node.js • Express • MongoDB • JWT • Axios • Cloudinary • Resend
+**Stack:** React • Node.js • Express • MongoDB • JWT • Cloudinary
 **Live:** [glimpse-dun-seven.vercel.app](https://glimpse-dun-seven.vercel.app)
 
 ---
 
 ### [Vavis](https://github.com/Albis0/Vavis) — Windows-native AI assistant
 
-A personal AI assistant for Windows in a single `.exe`, no install. Rewritten from scratch (formerly AEGIS) with a Rust backend and a Tauri window.
+A personal AI assistant for Windows in a single `.exe`, no install.
 
-- **Any model:** 14 providers, including Claude Code, Gemini, Groq, Cerebras, OpenRouter, Mistral, NVIDIA, GitHub Models and local models (Ollama / LM Studio), with fallbacks when a quota runs out
-- **Voice:** on-device wake word and live conversation (Gemini Live)
-- **Memory:** local semantic memory that learns about you
-- **Computer control:** 73 tools that reach buttons and fields in any window by name (UI Automation) and control files, apps, media, Spotify, Steam, Obsidian and MCP servers
-- **Automations:** fire on time, battery, CPU or events like a new download
-- **Code mode, Telegram control and Council:** edit and test a project, use it from your phone, or ask several models the same question side by side
-- **Safety:** destructive actions ask for approval, prompt injection from pages and files is guarded against, and API keys are encrypted with Windows DPAPI
+- 14 model providers with fallbacks, plus local models
+- Voice, local memory and 73 tools that control apps by name
+- Automations, Telegram control and approval prompts for risky actions
 
 **Stack:** Rust • Tauri • React • TypeScript • Vite
 **Download:** [Latest release](https://github.com/Albis0/Vavis/releases/latest)
