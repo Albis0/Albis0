@@ -96,6 +96,10 @@ A personal AI assistant for Windows in a single `.exe`, no install. Rewritten fr
   <img src="assets/activity-light.svg" alt="Commit activity over the last 12 months as a 3D skyline: 1,200 commits on 163 days" width="830">
 </picture>
 
+<img src="assets/stats.svg" alt="Commit stats: total, per month, most active projects" width="830">
+
+<img src="assets/trophies.svg" alt="Trophies: commits, active days, streak, busiest day, projects, experience" width="830">
+
 </div>
 
 ## Get In Touch

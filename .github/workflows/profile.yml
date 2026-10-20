@@ -1,0 +1,53 @@
+name: Update profile graphics
+
+on:
+  schedule:
+    - cron: "17 3 * * *"        # every day, 03:17 UTC
+  workflow_dispatch:             # "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect commit history (all repos, timestamps only)
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Secret PROFILE_TOKEN is missing. Create a fine-grained token (all repositories, Contents: read) and add it under Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          python scripts/collect.py
+
+      - name: Draw the graphics
+        run: python scripts/render.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data assets
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "chore: update profile graphics"
+            git push
+          fi
