@@ -2,7 +2,7 @@
 
 ![Albis](https://capsule-render.vercel.app/api?type=waving&color=0:3178C6,100:20232A&height=170&section=header&text=Albis&fontSize=90&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Full-stack%20developer&descSize=22&descAlignY=68)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=3178C6&center=true&vCenter=true&width=600&height=40&lines=React%2C+TypeScript+and+Node.js;Web+apps+and+desktop+tools;Turning+ideas+into+working+products)](https://github.com/Albis0)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=3178C6&center=true&vCenter=true&width=600&height=40&lines=React%2C+TypeScript+and+Node.js;Web+apps+and+desktop+tools)](https://github.com/Albis0)
 
 </div>
 
